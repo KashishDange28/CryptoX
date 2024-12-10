@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Crypto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+        }
+        header {
+            background-color: #e74c3c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed; /* Fixed header */
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+            margin-top: 70px; /* Adjust based on header height */
+        }
+        form input, form button {
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/images/logo.png" type="image/svg+xml">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.png" width="80" height="162" alt="CryptoX logo">
+                CryptoX
+            </a>
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li class="navbar-item"><a href="index.html" class="navbar-link active" data-nav-link>Home</a></li>
+                    <li class="navbar-item"><a href="buy_crypto.html" class="navbar-link" data-nav-link>Buy Crypto</a></li>
+                    <li class="navbar-item"><a href="markets.html" class="navbar-link" data-nav-link>Markets</a></li>
+                    <li class="navbar-item"><a href="sell_crypto.html" class="navbar-link" data-nav-link>Sell Crypto</a></li>
+                    <li class="navbar-item"><a href="blog.html" class="navbar-link" data-nav-link>Blog</a></li>
+                    <li class="navbar-item"><a href="bithts.html" class="navbar-link" data-nav-link>BITUSDT</a></li>
+                </ul>
+            </nav>
+            <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </button>
+            <a href="#" class="btn btn-outline">Wallet</a>
+        </div>
+    </header>
+    <main>
+        <p>Sell your cryptocurrency quickly and securely.</p>
+        <form>
+            <input type="text" placeholder="Enter cryptocurrency">
+            <input type="number" placeholder="Enter amount">
+            <button type="submit">Sell Now</button>
+        </form>
+    </main>
+</body>
+</html>
